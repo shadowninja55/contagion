@@ -6,25 +6,28 @@ Simulating viral spread and testing preventative measures such as vaccination an
 <div style="display: flex; flex-direction: row;">
 <div style="display: flex; flex-direction: column; text-align: center;">
 <p>Simulation Setup:</p>
-<img src="https://raw.githubusercontent.com/shadowninja55/contagion/refs/heads/master/images/small-demo.png" width="400"></img>
+<img src="https://raw.githubusercontent.com/shadowninja55/contagion/refs/heads/master/images/demo-typical.png" width="400"></img>
 </div>
 </div>
 
 <br />
 
-<div style="display: flex; flex-direction: row;">
-
-<div style="display: flex; flex-direction: column; text-align: center;">
-<p>Typical Influenza Progression:</p>
-<img src="https://raw.githubusercontent.com/shadowninja55/contagion/refs/heads/master/images/influenza-typical.png" width="200"></img>
-</div>
-
-<div style="width: 20px;"></div>
-
-<div style="display: flex; flex-direction: column; text-align: center;">
-<p>Preventative Influenza Progression:</p>
-<img src="https://raw.githubusercontent.com/shadowninja55/contagion/refs/heads/master/images/influenza-preventative.png" width="200"></img>
-</div>
+<table border="0" cellspacing="0" cellpadding="5">
+  <colgroup>
+    <col>
+    <col>
+  </colgroup>
+  <tr>
+    <td align="center">Typical Progression</td>
+    <td></td>
+    <td align="center">Preventative Progression</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://raw.githubusercontent.com/shadowninja55/contagion/refs/heads/master/images/influenza-typical.png" width="200"></td>
+    <td></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/shadowninja55/contagion/refs/heads/master/images/influenza-preventative.png" width="200"></td>
+  </tr>
+</table>
 
 </div>
 

@@ -1,5 +1,5 @@
 [simulation]
-name = "TypicalInfluenza"
+name = "influenza-typical"
 cell_count = 24
 speed = 50
 vaccination_rate = 0.45

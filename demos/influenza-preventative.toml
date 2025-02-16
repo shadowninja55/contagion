@@ -1,5 +1,5 @@
 [simulation]
-name = "PreventativeInfluenze"
+name = "influenza-preventative"
 cell_count = 24
 speed = 50
 vaccination_rate = 0.95

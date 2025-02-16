@@ -1,4 +1,5 @@
 [simulation]
+name = "SmallDemo"
 cell_count = 8
 speed = 1
 vaccination_rate = 0.45

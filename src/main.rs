@@ -12,6 +12,7 @@ use graphing::*;
 
 #[derive(Deserialize)]
 struct SimulationConfig {
+  name: String,
   cell_count: i32,
   speed: u32,
   vaccination_rate: f32,
@@ -86,7 +87,7 @@ async fn main() {
   let cell_count = config.simulation.cell_count;
   let scale = WIDTH / CELL_WIDTH / cell_count as f32;
 
-  let mut simulation = Simulation::new(config.simulation.quarantine);
+  let mut simulation = Simulation::new(config.simulation.name, config.simulation.quarantine);
   let mut entity_ids = Vec::new();
   let mut house_ids = Vec::new();
   let mut workplace_ids = Vec::new();
@@ -204,6 +205,10 @@ async fn main() {
         let scaled = scale * entity.pos;
         draw_circle(scaled.x, scaled.y, scale * ENTITY_RADIUS, entity_color(&entity));
       }
+    }
+
+    if is_key_pressed(KeyCode::S) {
+      get_screen_data().export_png(&format!("./images/{}.png", simulation.name));
     }
 
     next_frame().await;

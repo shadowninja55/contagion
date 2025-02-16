@@ -52,6 +52,7 @@ pub struct Building {
 
 #[derive(Clone)]
 pub struct Simulation {
+  pub name: String,
   pub entities: Vec<Entity>,
   pub buildings: Vec<Building>,
   pub store_ids: Vec<usize>,
@@ -191,8 +192,9 @@ impl Building {
 }
 
 impl Simulation {
-  pub fn new(quarantine: bool) -> Self {
-    Simulation { 
+  pub fn new(name: String, quarantine: bool) -> Self {
+    Simulation {
+      name,
       entities: Vec::new(), 
       buildings: Vec::new(),
       store_ids: Vec::new(),

@@ -1,0 +1,12 @@
+[simulation]
+name = "demo-unprepared"
+cell_count = 8
+speed = 2
+vaccination_rate = 0
+quarantine = false
+
+[virus]
+infectivity = 0.03
+lethality = 0.00001
+incubation = 1
+duration = 4

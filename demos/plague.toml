@@ -1,0 +1,12 @@
+[simulation]
+name = "plague"
+cell_count = 24
+speed = 50
+vaccination_rate = 0
+quarantine = true
+
+[virus]
+infectivity = 0.02
+lethality = 0.13
+incubation = 2
+duration = 5

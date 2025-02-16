@@ -3,12 +3,17 @@ Simulating viral spread and testing preventative measures such as vaccination an
 
 ## Output
 
-<div style="display: flex; flex-direction: row;">
-<div style="display: flex; flex-direction: column; text-align: center;">
-<p>Simulation Setup:</p>
-<img src="https://raw.githubusercontent.com/shadowninja55/contagion/refs/heads/master/images/demo-typical.png" width="400"></img>
-</div>
-</div>
+<table border="0" cellspacing="0" cellpadding="5">
+  <colgroup>
+    <col>
+  </colgroup>
+  <tr>
+    <td align="center">Simulation Setup</td></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://raw.githubusercontent.com/shadowninja55/contagion/refs/heads/master/images/demo-typical.png" width="400"></td>
+  </tr>
+</table>
 
 <br />
 
@@ -18,18 +23,14 @@ Simulating viral spread and testing preventative measures such as vaccination an
     <col>
   </colgroup>
   <tr>
-    <td align="center">Typical Progression</td>
-    <td></td>
-    <td align="center">Preventative Progression</td>
+    <td align="center">Typical Progression (Influenza)</td>
+    <td align="center">Preventative Progression (Influenza)</td>
   </tr>
   <tr>
     <td align="center"><img src="https://raw.githubusercontent.com/shadowninja55/contagion/refs/heads/master/images/influenza-typical.png" width="200"></td>
-    <td></td>
     <td align="center"><img src="https://raw.githubusercontent.com/shadowninja55/contagion/refs/heads/master/images/influenza-preventative.png" width="200"></td>
   </tr>
 </table>
-
-</div>
 
 <br />
 

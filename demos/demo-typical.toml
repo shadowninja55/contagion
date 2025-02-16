@@ -1,7 +1,7 @@
 [simulation]
-name = "small-demo"
+name = "demo-typical"
 cell_count = 8
-speed = 1
+speed = 2
 vaccination_rate = 0.45
 quarantine = false
 

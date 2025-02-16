@@ -1,0 +1,11 @@
+[simulation]
+cell_count = 24
+speed = 50
+vaccination_rate = 0.95
+quarantine = true
+
+[virus]
+infectivity = 0.02
+lethality = 0.00001
+incubation = 2
+duration = 4
